@@ -1,5 +1,5 @@
-from .ccrole import CCRole
+from .mycog import Mycog
 
 
 def setup(bot):
-    bot.add_cog(CCRole(bot))
+    bot.add_cog(Mycog())
